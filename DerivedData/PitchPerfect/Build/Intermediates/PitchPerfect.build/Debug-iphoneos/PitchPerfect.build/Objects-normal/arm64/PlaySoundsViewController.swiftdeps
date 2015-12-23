@@ -6,42 +6,43 @@ provides-nominal:
 provides-member:
 - ["C12PitchPerfect24PlaySoundsViewController", ""]
 provides-dynamic-lookup:
-- "receivedAudio"
 - "fastButton"
-- "chipmunkButton"
-- "playSnail"
-- "stopPlay"
-- "playWithPitch"
-- "darthvaderButton"
-- "audioEngine"
-- "playFast"
 - "stopButton"
 - "viewDidLoad"
-- "playAudio"
+- "audioEngine"
 - "didReceiveMemoryWarning"
-- "playDarthvader"
+- "chipmunkButton"
+- "playAudio"
+- "darthvaderButton"
+- "stopPlay"
+- "playSnail"
+- "playWithPitch"
+- "receivedAudio"
+- "playFast"
 - "playChipmunk"
-- "audioPlayer"
+- "playDarthvader"
 - "snailButton"
+- "audioPlayer"
 depends-top-level:
 - "PlaySoundsViewController"
-- !private "StringLiteralType"
-- !private "NSURL"
-- !private "print"
 - !private "AVAudioUnitTimePitch"
-- "AVAudioEngine"
-- "UIViewController"
-- "Float"
 - !private "AVAudioPlayerNode"
-- !private "BooleanLiteralType"
 - "RecordedAudio"
-- !private "AVAudioFile"
-- "AVAudioPlayer"
+- "Float"
+- !private "print"
+- !private "BooleanLiteralType"
 - "UIButton"
+- "UIViewController"
+- !private "NSURL"
+- "AVAudioEngine"
+- !private "AVAudioFile"
+- !private "StringLiteralType"
+- "AVAudioPlayer"
 depends-member:
 - !private ["PSo15AVAudio3DMixing", "init"]
 - !private ["PSo15AVAudio3DMixing", "play"]
 - !private ["PSo15AVAudio3DMixing", "scheduleFile"]
+- !private ["PSo15AVAudio3DMixing", "volume"]
 - !private ["CSo13AVAudioEngine", "attachNode"]
 - !private ["CSo13AVAudioEngine", "connect"]
 - !private ["CSo13AVAudioEngine", "init"]
@@ -53,10 +54,12 @@ depends-member:
 - !private ["PSo13AVAudioMixing", "init"]
 - !private ["PSo13AVAudioMixing", "play"]
 - !private ["PSo13AVAudioMixing", "scheduleFile"]
+- !private ["PSo13AVAudioMixing", "volume"]
 - !private ["CSo11AVAudioNode", "init"]
 - !private ["CSo11AVAudioNode", "pitch"]
 - !private ["CSo11AVAudioNode", "play"]
 - !private ["CSo11AVAudioNode", "scheduleFile"]
+- !private ["CSo11AVAudioNode", "volume"]
 - !private ["CSo13AVAudioPlayer", "currentTime"]
 - !private ["CSo13AVAudioPlayer", "enableRate"]
 - !private ["CSo13AVAudioPlayer", "init"]
@@ -64,12 +67,15 @@ depends-member:
 - !private ["CSo13AVAudioPlayer", "prepareToPlay"]
 - !private ["CSo13AVAudioPlayer", "rate"]
 - !private ["CSo13AVAudioPlayer", "stop"]
+- !private ["CSo13AVAudioPlayer", "volume"]
 - !private ["CSo17AVAudioPlayerNode", "init"]
 - !private ["CSo17AVAudioPlayerNode", "play"]
 - !private ["CSo17AVAudioPlayerNode", "scheduleFile"]
+- !private ["CSo17AVAudioPlayerNode", "volume"]
 - !private ["PSo19AVAudioStereoMixing", "init"]
 - !private ["PSo19AVAudioStereoMixing", "play"]
 - !private ["PSo19AVAudioStereoMixing", "scheduleFile"]
+- !private ["PSo19AVAudioStereoMixing", "volume"]
 - !private ["CSo11AVAudioUnit", "init"]
 - !private ["CSo11AVAudioUnit", "pitch"]
 - !private ["CSo21AVAudioUnitTimeEffect", "init"]
@@ -116,6 +122,7 @@ depends-member:
 - ["PSs9AnyObject", "stopButton"]
 - ["PSs9AnyObject", "stopPlay"]
 - ["PSs9AnyObject", "viewDidLoad"]
+- !private ["PSs9AnyObject", "volume"]
 - ["PSs9AnyObject", ""]
 - !private ["PSs11CVarArgType", "AVAudioEngine"]
 - !private ["PSs11CVarArgType", "AVAudioFile"]
@@ -157,6 +164,7 @@ depends-member:
 - ["PSs11CVarArgType", "stopButton"]
 - ["PSs11CVarArgType", "stopPlay"]
 - ["PSs11CVarArgType", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "volume"]
 - ["PSs11CVarArgType", ""]
 - ["PSs28CustomDebugStringConvertible", "Some"]
 - !private ["PSs23CustomStringConvertible", "AVAudioEngine"]
@@ -200,6 +208,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "stopButton"]
 - ["PSs23CustomStringConvertible", "stopPlay"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
+- !private ["PSs23CustomStringConvertible", "volume"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["PSs9Equatable", "AVAudioEngine"]
 - !private ["PSs9Equatable", "AVAudioFile"]
@@ -241,6 +250,7 @@ depends-member:
 - ["PSs9Equatable", "stopButton"]
 - ["PSs9Equatable", "stopPlay"]
 - ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "volume"]
 - ["PSs9Equatable", ""]
 - !private ["PSs8Hashable", "AVAudioEngine"]
 - !private ["PSs8Hashable", "AVAudioFile"]
@@ -282,6 +292,7 @@ depends-member:
 - ["PSs8Hashable", "stopButton"]
 - ["PSs8Hashable", "stopPlay"]
 - ["PSs8Hashable", "viewDidLoad"]
+- !private ["PSs8Hashable", "volume"]
 - ["PSs8Hashable", ""]
 - ["SQ", "Some"]
 - !private ["PSo8NSCoding", "AVAudioEngine"]
@@ -382,6 +393,7 @@ depends-member:
 - ["CSo8NSObject", "stopButton"]
 - ["CSo8NSObject", "stopPlay"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "volume"]
 - !private ["PSo16NSObjectProtocol", "AVAudioEngine"]
 - !private ["PSo16NSObjectProtocol", "AVAudioFile"]
 - !private ["PSo16NSObjectProtocol", "AVAudioPlayer"]
@@ -422,6 +434,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "stopButton"]
 - ["PSo16NSObjectProtocol", "stopPlay"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "volume"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "path"]

@@ -1,8 +1,8 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "fd7f4e090601ac60ad67f3c3aefdff09"
-build_time: [504158548, 209145000]
+build_time: [504169352, 648752000]
 inputs:
+  "/Users/DboyLiao/Documents/MOOCs/Udacity/iOS/Intro_iOS_App_Dev/PitchPerfect/PitchPerfect/PlaySoundsViewController.swift": [504169312, 0]
   "/Users/DboyLiao/Documents/MOOCs/Udacity/iOS/Intro_iOS_App_Dev/PitchPerfect/PitchPerfect/AppDelegate.swift": [503512749, 0]
-  "/Users/DboyLiao/Documents/MOOCs/Udacity/iOS/Intro_iOS_App_Dev/PitchPerfect/PitchPerfect/RecordSoundsViewController.swift": [504084027, 0]
-  "/Users/DboyLiao/Documents/MOOCs/Udacity/iOS/Intro_iOS_App_Dev/PitchPerfect/PitchPerfect/PlaySoundsViewController.swift": [504158539, 0]
+  "/Users/DboyLiao/Documents/MOOCs/Udacity/iOS/Intro_iOS_App_Dev/PitchPerfect/PitchPerfect/RecordSoundsViewController.swift": [504167781, 0]
   "/Users/DboyLiao/Documents/MOOCs/Udacity/iOS/Intro_iOS_App_Dev/PitchPerfect/PitchPerfect/RecordedAudio.swift": [504077322, 0]

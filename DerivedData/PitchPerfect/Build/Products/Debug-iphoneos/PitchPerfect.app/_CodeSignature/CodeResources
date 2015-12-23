@@ -4,9 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		RK5gpTpsRFaxn4vlK+Sh0sXseCo=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		IWceuaEY31ll4Aep6s+sRO6ZPvk=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		QJr6Zp9tyYWKNTYZyelfw4TWGWk=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		2YrxIJDFucJVOsVZcy/9IWUlnsU=
+		DuEjrNeKpj+l9KY6DpPF6h/z85g=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
@@ -130,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SKV8Na/i/pgcH3bEUjeqs7+hLt0=
+		nxO+WNVGMJIWOxIV2bMDM2tlP/0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -147,9 +159,21 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		RK5gpTpsRFaxn4vlK+Sh0sXseCo=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		IWceuaEY31ll4Aep6s+sRO6ZPvk=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		QJr6Zp9tyYWKNTYZyelfw4TWGWk=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		2YrxIJDFucJVOsVZcy/9IWUlnsU=
+		DuEjrNeKpj+l9KY6DpPF6h/z85g=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>

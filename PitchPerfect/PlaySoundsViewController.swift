@@ -72,12 +72,9 @@ class PlaySoundsViewController: UIViewController {
         audioEngine.connect(unitTimePitch, to: audioEngine.outputNode, format: nil)
         
         player.scheduleFile(audioFile, atTime: nil, completionHandler: nil)
-        do {
-            try audioEngine.start()
-            player.play()    // non-blocking playing.
-        } catch {
-            print("Something goes wrong! %@", error)
-        }
+        try! audioEngine.start()
+        player.volume = 1.0
+        player.play()    // non-blocking playing.
     }
     
     func playAudio(audioPlayer: AVAudioPlayer?, rate: Float = 1.0){
@@ -85,6 +82,7 @@ class PlaySoundsViewController: UIViewController {
             audioPlayer.stop()
             audioPlayer.currentTime = 0.0
             audioPlayer.rate = rate
+            audioPlayer.volume = 1.0
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }

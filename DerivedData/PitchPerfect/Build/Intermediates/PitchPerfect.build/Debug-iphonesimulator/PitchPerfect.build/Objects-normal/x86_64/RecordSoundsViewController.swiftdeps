@@ -6,40 +6,40 @@ provides-nominal:
 provides-member:
 - ["C12PitchPerfect26RecordSoundsViewController", ""]
 provides-dynamic-lookup:
-- "prepareForSegue"
-- "recordButton"
 - "recordLabel"
-- "audioRecorder"
-- "viewDidLoad"
-- "audioRecorderDidFinishRecording"
-- "didReceiveMemoryWarning"
 - "recordAudio"
-- "stopButton"
-- "stopRecord"
-- "recordedAudio"
+- "audioRecorder"
+- "audioRecorderDidFinishRecording"
+- "recordButton"
 - "viewWillAppear"
+- "prepareForSegue"
+- "recordedAudio"
+- "stopRecord"
+- "didReceiveMemoryWarning"
+- "stopButton"
+- "viewDidLoad"
 depends-top-level:
-- "AVAudioRecorder"
-- !private "BooleanLiteralType"
-- "RecordSoundsViewController"
-- !private "+"
-- !private "Dictionary"
-- !private "AVAudioSession"
-- "UILabel"
-- "RecordedAudio"
-- "UIStoryboardSegue"
-- !private "NSSearchPathForDirectoriesInDomains"
-- "AVAudioRecorderDelegate"
-- "UIViewController"
-- !private "print"
 - !private "PlaySoundsViewController"
-- "Bool"
-- !private "StringLiteralType"
-- !private "AVAudioSessionCategoryRecord"
-- "UIButton"
-- !private "=="
+- "AVAudioRecorderDelegate"
 - !private "Array"
+- "RecordedAudio"
+- "UIViewController"
+- !private "StringLiteralType"
+- "UILabel"
+- !private "AVAudioSessionCategoryPlayAndRecord"
+- !private "Dictionary"
+- "AVAudioRecorder"
+- !private "print"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "=="
+- "RecordSoundsViewController"
+- !private "BooleanLiteralType"
+- "UIButton"
 - !private "NSURL"
+- !private "AVAudioSession"
+- "UIStoryboardSegue"
+- "Bool"
+- !private "+"
 - "AnyObject"
 depends-member:
 - !private ["CSo15AVAudioRecorder", "delegate"]
@@ -51,7 +51,7 @@ depends-member:
 - !private ["CSo15AVAudioRecorder", "url"]
 - !private ["PSo23AVAudioRecorderDelegate", "AVAudioRecorder"]
 - !private ["PSo23AVAudioRecorderDelegate", "AVAudioSession"]
-- !private ["PSo23AVAudioRecorderDelegate", "AVAudioSessionCategoryRecord"]
+- !private ["PSo23AVAudioRecorderDelegate", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo23AVAudioRecorderDelegate", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo23AVAudioRecorderDelegate", "NSURL"]
 - !private ["PSo23AVAudioRecorderDelegate", "RecordedAudio"]
@@ -72,7 +72,7 @@ depends-member:
 - !private ["CSo14AVAudioSession", "sharedInstance"]
 - !private ["PSs9AnyObject", "AVAudioRecorder"]
 - !private ["PSs9AnyObject", "AVAudioSession"]
-- !private ["PSs9AnyObject", "AVAudioSessionCategoryRecord"]
+- !private ["PSs9AnyObject", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSs9AnyObject", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSs9AnyObject", "NSURL"]
 - !private ["PSs9AnyObject", "RecordedAudio"]
@@ -127,7 +127,7 @@ depends-member:
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - !private ["PSs11CVarArgType", "AVAudioRecorder"]
 - !private ["PSs11CVarArgType", "AVAudioSession"]
-- !private ["PSs11CVarArgType", "AVAudioSessionCategoryRecord"]
+- !private ["PSs11CVarArgType", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSs11CVarArgType", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSs11CVarArgType", "NSURL"]
 - !private ["PSs11CVarArgType", "RecordedAudio"]
@@ -184,7 +184,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "AVAudioRecorder"]
 - !private ["PSs23CustomStringConvertible", "AVAudioSession"]
-- !private ["PSs23CustomStringConvertible", "AVAudioSessionCategoryRecord"]
+- !private ["PSs23CustomStringConvertible", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSs23CustomStringConvertible", "Element"]
 - !private ["PSs23CustomStringConvertible", "Index"]
 - !private ["PSs23CustomStringConvertible", "Key"]
@@ -238,7 +238,7 @@ depends-member:
 - !private ["PSs28DictionaryLiteralConvertible", "Value"]
 - !private ["PSs9Equatable", "AVAudioRecorder"]
 - !private ["PSs9Equatable", "AVAudioSession"]
-- !private ["PSs9Equatable", "AVAudioSessionCategoryRecord"]
+- !private ["PSs9Equatable", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSs9Equatable", "DocumentDirectory"]
 - !private ["PSs9Equatable", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSs9Equatable", "NSURL"]
@@ -286,7 +286,7 @@ depends-member:
 - !private ["PSs13GeneratorType", "Element"]
 - !private ["PSs8Hashable", "AVAudioRecorder"]
 - !private ["PSs8Hashable", "AVAudioSession"]
-- !private ["PSs8Hashable", "AVAudioSessionCategoryRecord"]
+- !private ["PSs8Hashable", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSs8Hashable", "DocumentDirectory"]
 - !private ["PSs8Hashable", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSs8Hashable", "NSURL"]
@@ -350,7 +350,7 @@ depends-member:
 - !private ["PSs16MutableSliceable", "subscript"]
 - !private ["PSo8NSCoding", "AVAudioRecorder"]
 - !private ["PSo8NSCoding", "AVAudioSession"]
-- !private ["PSo8NSCoding", "AVAudioSessionCategoryRecord"]
+- !private ["PSo8NSCoding", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo8NSCoding", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo8NSCoding", "NSURL"]
 - !private ["PSo8NSCoding", "RecordedAudio"]
@@ -384,7 +384,7 @@ depends-member:
 - !private ["PSo9NSCopying", "path"]
 - !private ["PSo26NSExtensionRequestHandling", "AVAudioRecorder"]
 - !private ["PSo26NSExtensionRequestHandling", "AVAudioSession"]
-- !private ["PSo26NSExtensionRequestHandling", "AVAudioSessionCategoryRecord"]
+- !private ["PSo26NSExtensionRequestHandling", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo26NSExtensionRequestHandling", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo26NSExtensionRequestHandling", "NSURL"]
 - !private ["PSo26NSExtensionRequestHandling", "RecordedAudio"]
@@ -410,7 +410,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "AVAudioRecorder"]
 - !private ["CSo8NSObject", "AVAudioSession"]
-- !private ["CSo8NSObject", "AVAudioSessionCategoryRecord"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryPlayAndRecord"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "NSSearchPathForDirectoriesInDomains"]
@@ -459,7 +459,7 @@ depends-member:
 - ["CSo8NSObject", "viewWillAppear"]
 - !private ["PSo16NSObjectProtocol", "AVAudioRecorder"]
 - !private ["PSo16NSObjectProtocol", "AVAudioSession"]
-- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryRecord"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo16NSObjectProtocol", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo16NSObjectProtocol", "NSURL"]
 - !private ["PSo16NSObjectProtocol", "RecordedAudio"]
@@ -519,7 +519,7 @@ depends-member:
 - !private ["PSs16RawRepresentable", "UserDomainMask"]
 - ["C12PitchPerfect26RecordSoundsViewController", "AVAudioRecorder"]
 - !private ["C12PitchPerfect26RecordSoundsViewController", "AVAudioSession"]
-- !private ["C12PitchPerfect26RecordSoundsViewController", "AVAudioSessionCategoryRecord"]
+- !private ["C12PitchPerfect26RecordSoundsViewController", "AVAudioSessionCategoryPlayAndRecord"]
 - ["C12PitchPerfect26RecordSoundsViewController", "AnyObject"]
 - ["C12PitchPerfect26RecordSoundsViewController", "Bool"]
 - !private ["C12PitchPerfect26RecordSoundsViewController", "NSSearchPathForDirectoriesInDomains"]
@@ -570,7 +570,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "hidden"]
 - !private ["PSo21UIAppearanceContainer", "AVAudioRecorder"]
 - !private ["PSo21UIAppearanceContainer", "AVAudioSession"]
-- !private ["PSo21UIAppearanceContainer", "AVAudioSessionCategoryRecord"]
+- !private ["PSo21UIAppearanceContainer", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo21UIAppearanceContainer", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo21UIAppearanceContainer", "NSURL"]
 - !private ["PSo21UIAppearanceContainer", "RecordedAudio"]
@@ -600,7 +600,7 @@ depends-member:
 - !private ["CSo8UIButton", "hidden"]
 - !private ["PSo18UIContentContainer", "AVAudioRecorder"]
 - !private ["PSo18UIContentContainer", "AVAudioSession"]
-- !private ["PSo18UIContentContainer", "AVAudioSessionCategoryRecord"]
+- !private ["PSo18UIContentContainer", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo18UIContentContainer", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo18UIContentContainer", "NSURL"]
 - !private ["PSo18UIContentContainer", "RecordedAudio"]
@@ -632,7 +632,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "hidden"]
 - !private ["PSo18UIFocusEnvironment", "AVAudioRecorder"]
 - !private ["PSo18UIFocusEnvironment", "AVAudioSession"]
-- !private ["PSo18UIFocusEnvironment", "AVAudioSessionCategoryRecord"]
+- !private ["PSo18UIFocusEnvironment", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo18UIFocusEnvironment", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo18UIFocusEnvironment", "NSURL"]
 - !private ["PSo18UIFocusEnvironment", "RecordedAudio"]
@@ -661,7 +661,7 @@ depends-member:
 - !private ["CSo7UILabel", "hidden"]
 - ["CSo11UIResponder", "AVAudioRecorder"]
 - !private ["CSo11UIResponder", "AVAudioSession"]
-- !private ["CSo11UIResponder", "AVAudioSessionCategoryRecord"]
+- !private ["CSo11UIResponder", "AVAudioSessionCategoryPlayAndRecord"]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "NSSearchPathForDirectoriesInDomains"]
@@ -694,7 +694,7 @@ depends-member:
 - ["CSo11UIResponder", "viewWillAppear"]
 - !private ["PSo16UIStateRestoring", "AVAudioRecorder"]
 - !private ["PSo16UIStateRestoring", "AVAudioSession"]
-- !private ["PSo16UIStateRestoring", "AVAudioSessionCategoryRecord"]
+- !private ["PSo16UIStateRestoring", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo16UIStateRestoring", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo16UIStateRestoring", "NSURL"]
 - !private ["PSo16UIStateRestoring", "RecordedAudio"]
@@ -722,7 +722,7 @@ depends-member:
 - !private ["CSo17UIStoryboardSegue", "identifier"]
 - !private ["PSo18UITraitEnvironment", "AVAudioRecorder"]
 - !private ["PSo18UITraitEnvironment", "AVAudioSession"]
-- !private ["PSo18UITraitEnvironment", "AVAudioSessionCategoryRecord"]
+- !private ["PSo18UITraitEnvironment", "AVAudioSessionCategoryPlayAndRecord"]
 - !private ["PSo18UITraitEnvironment", "NSSearchPathForDirectoriesInDomains"]
 - !private ["PSo18UITraitEnvironment", "NSURL"]
 - !private ["PSo18UITraitEnvironment", "RecordedAudio"]
@@ -752,7 +752,7 @@ depends-member:
 - !private ["CSo6UIView", "hidden"]
 - ["CSo16UIViewController", "AVAudioRecorder"]
 - !private ["CSo16UIViewController", "AVAudioSession"]
-- !private ["CSo16UIViewController", "AVAudioSessionCategoryRecord"]
+- !private ["CSo16UIViewController", "AVAudioSessionCategoryPlayAndRecord"]
 - ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "NSSearchPathForDirectoriesInDomains"]
