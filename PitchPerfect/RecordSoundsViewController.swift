@@ -63,7 +63,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 //        let session2 = AVAudioSession.sharedInstance()
 //        print("the same?:", session == session2)  // Yes! It is really a singleton.
         
-        try! session.setCategory(AVAudioSessionCategoryRecord)
+        try! session.setCategory(AVAudioSessionCategoryPlayAndRecord)
         try! audioRecorder = AVAudioRecorder(URL: filePath!, settings: [:])
         audioRecorder.delegate = self
         audioRecorder.meteringEnabled = true
