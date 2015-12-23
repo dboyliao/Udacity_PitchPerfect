@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C12PitchPerfect14ViewController"
+provides-member:
+- ["C12PitchPerfect14ViewController", ""]
+provides-dynamic-lookup:
+- "recordButton"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "viewWillAppear"
+- "stopRecord"
+- "stopButton"
+- "recordAudio"
+- "recordLabel"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "UILabel"
+- "UIButton"
+- "ViewController"
+- "AnyObject"
+- "Bool"
+- "UIViewController"
+- !private "StringLiteralType"
+- !private "print"
+depends-member:
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "enabled"]
+- !private ["PSs9AnyObject", "hidden"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "recordAudio"]
+- ["PSs9AnyObject", "recordButton"]
+- ["PSs9AnyObject", "recordLabel"]
+- ["PSs9AnyObject", "stopButton"]
+- ["PSs9AnyObject", "stopRecord"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "viewWillAppear"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "enabled"]
+- !private ["PSs11CVarArgType", "hidden"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "recordAudio"]
+- ["PSs11CVarArgType", "recordButton"]
+- ["PSs11CVarArgType", "recordLabel"]
+- ["PSs11CVarArgType", "stopButton"]
+- ["PSs11CVarArgType", "stopRecord"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "viewWillAppear"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "enabled"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "recordAudio"]
+- ["PSs23CustomStringConvertible", "recordButton"]
+- ["PSs23CustomStringConvertible", "recordLabel"]
+- ["PSs23CustomStringConvertible", "stopButton"]
+- ["PSs23CustomStringConvertible", "stopRecord"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "viewWillAppear"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "enabled"]
+- !private ["PSs9Equatable", "hidden"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "recordAudio"]
+- ["PSs9Equatable", "recordButton"]
+- ["PSs9Equatable", "recordLabel"]
+- ["PSs9Equatable", "stopButton"]
+- ["PSs9Equatable", "stopRecord"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "viewWillAppear"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "enabled"]
+- !private ["PSs8Hashable", "hidden"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "recordAudio"]
+- ["PSs8Hashable", "recordButton"]
+- ["PSs8Hashable", "recordLabel"]
+- ["PSs8Hashable", "stopButton"]
+- ["PSs8Hashable", "stopRecord"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "viewWillAppear"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "enabled"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "recordAudio"]
+- ["PSo8NSCoding", "recordButton"]
+- ["PSo8NSCoding", "recordLabel"]
+- ["PSo8NSCoding", "stopButton"]
+- ["PSo8NSCoding", "stopRecord"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "recordAudio"]
+- ["PSo26NSExtensionRequestHandling", "recordButton"]
+- ["PSo26NSExtensionRequestHandling", "recordLabel"]
+- ["PSo26NSExtensionRequestHandling", "stopButton"]
+- ["PSo26NSExtensionRequestHandling", "stopRecord"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "enabled"]
+- !private ["CSo8NSObject", "hidden"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "recordAudio"]
+- ["CSo8NSObject", "recordButton"]
+- ["CSo8NSObject", "recordLabel"]
+- ["CSo8NSObject", "stopButton"]
+- ["CSo8NSObject", "stopRecord"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "enabled"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "recordAudio"]
+- ["PSo16NSObjectProtocol", "recordButton"]
+- ["PSo16NSObjectProtocol", "recordLabel"]
+- ["PSo16NSObjectProtocol", "stopButton"]
+- ["PSo16NSObjectProtocol", "stopRecord"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "enabled"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo12UIAppearance", "enabled"]
+- !private ["PSo12UIAppearance", "hidden"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "enabled"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "recordAudio"]
+- ["PSo21UIAppearanceContainer", "recordButton"]
+- ["PSo21UIAppearanceContainer", "recordLabel"]
+- ["PSo21UIAppearanceContainer", "stopButton"]
+- ["PSo21UIAppearanceContainer", "stopRecord"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "enabled"]
+- !private ["CSo8UIButton", "hidden"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "recordAudio"]
+- ["PSo18UIContentContainer", "recordButton"]
+- ["PSo18UIContentContainer", "recordLabel"]
+- ["PSo18UIContentContainer", "stopButton"]
+- ["PSo18UIContentContainer", "stopRecord"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "enabled"]
+- !private ["CSo9UIControl", "hidden"]
+- !private ["PSo17UICoordinateSpace", "enabled"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo13UIDynamicItem", "enabled"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "enabled"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "recordAudio"]
+- ["PSo18UIFocusEnvironment", "recordButton"]
+- ["PSo18UIFocusEnvironment", "recordLabel"]
+- ["PSo18UIFocusEnvironment", "stopButton"]
+- ["PSo18UIFocusEnvironment", "stopRecord"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "hidden"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "enabled"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "recordAudio"]
+- ["CSo11UIResponder", "recordButton"]
+- ["CSo11UIResponder", "recordLabel"]
+- ["CSo11UIResponder", "stopButton"]
+- ["CSo11UIResponder", "stopRecord"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "recordAudio"]
+- ["PSo16UIStateRestoring", "recordButton"]
+- ["PSo16UIStateRestoring", "recordLabel"]
+- ["PSo16UIStateRestoring", "stopButton"]
+- ["PSo16UIStateRestoring", "stopRecord"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "enabled"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "recordAudio"]
+- ["PSo18UITraitEnvironment", "recordButton"]
+- ["PSo18UITraitEnvironment", "recordLabel"]
+- ["PSo18UITraitEnvironment", "stopButton"]
+- ["PSo18UITraitEnvironment", "stopRecord"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "enabled"]
+- !private ["CSo6UIView", "hidden"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "recordAudio"]
+- ["CSo16UIViewController", "recordButton"]
+- ["CSo16UIViewController", "recordLabel"]
+- ["CSo16UIViewController", "stopButton"]
+- ["CSo16UIViewController", "stopRecord"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- ["C12PitchPerfect14ViewController", "AnyObject"]
+- ["C12PitchPerfect14ViewController", "Bool"]
+- ["C12PitchPerfect14ViewController", "UIButton"]
+- ["C12PitchPerfect14ViewController", "UILabel"]
+- ["C12PitchPerfect14ViewController", "deinit"]
+- ["C12PitchPerfect14ViewController", "didReceiveMemoryWarning"]
+- ["C12PitchPerfect14ViewController", "init"]
+- !private ["C12PitchPerfect14ViewController", "print"]
+- ["C12PitchPerfect14ViewController", "recordAudio"]
+- ["C12PitchPerfect14ViewController", "recordButton"]
+- ["C12PitchPerfect14ViewController", "recordLabel"]
+- ["C12PitchPerfect14ViewController", "stopButton"]
+- ["C12PitchPerfect14ViewController", "stopRecord"]
+- ["C12PitchPerfect14ViewController", "viewDidLoad"]
+- ["C12PitchPerfect14ViewController", "viewWillAppear"]
+- !private ["PSs12_Reflectable", "enabled"]
+- !private ["PSs12_Reflectable", "hidden"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C12PitchPerfect14ViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "1f34515e462fa4fe4a00bc82865496d4"
